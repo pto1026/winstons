@@ -1,0 +1,18 @@
+.u-text-center {
+    text-align: center;
+}
+
+.u-grid-6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.u-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.u-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,23 @@
+.featured-in {
+    margin-top: 15rem;
+    &__text {
+        font-size: 1.4rem;
+        // font-weight: 600;
+        margin-top: auto;
+        margin-bottom: 1.2rem;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        // justify-content: space-around;
+        gap: 2rem;
+        opacity: .5;
+
+    }
+
+    &__logo {
+        width: 50%;
+        height: 50%;
+    }
+}
