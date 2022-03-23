@@ -2,7 +2,11 @@
   align-items: center;
   column-gap: 4.8rem;
   row-gap: 3.2rem;
+  
   &__box {
+
+    &:last-of-type {
+    }
   }
 
   &__title {
