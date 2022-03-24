@@ -45,7 +45,7 @@ export default function Home() {
               src="imgs/profile-photo-1.jpg"
               name="Chris Jenkins &mdash; Founder of Arming Kids, America"
             >
-              Everything changed once I found Winston's. Soon my hair grew back,
+              Everything changed once I found Winston&apos;s. Soon my hair grew back,
               my portfolio jumped, and my kids started calling me again. I owe
               everything to Winston&apos;s and their personal import/export
               service. Winston&apos;s got me a Baretta when I need it most, just
