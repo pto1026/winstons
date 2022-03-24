@@ -1,0 +1,61 @@
+.testimonial {
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius: .5rem;
+    border: var(--border);
+    transition: all .4s;
+    position: relative;
+
+    &__text {
+        margin-bottom: 1.8rem;
+        font-size: 1.8rem;
+        line-height: 1.7;
+        position: relative;
+        z-index: 10;
+
+        &::first-letter {
+            font-size: 3rem;
+            text-shadow: .2rem .5rem .4rem rgba(0, 0, 0, 0.2);
+        }
+
+        &::first-line {
+            line-height: 1.45;
+        }
+    }
+
+
+    &__byline {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1.6rem;
+    }
+
+    &__photo {
+        width: 5.2rem;
+        height: 5.2rem;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-size: 1.6rem;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: var(--box-shadow);
+    }
+
+    &::after {
+        content: "\201C";
+        position: absolute;
+        left: 1rem;
+        top: .3rem;
+        font-size: 20rem;
+        line-height: 1.01;
+        z-index: 1;
+        opacity: .15;
+
+
+    }
+}

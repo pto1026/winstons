@@ -19,7 +19,17 @@
 
 .section-how {
     padding: 9.6rem 3.2rem;
+    background-color: var(--main-color-lightest);
+    border-bottom: var(--border);
 
+    &__header {
+        margin-bottom: 3.2rem;
+    }
+}
+
+.section-testimonials {
+    padding: 9.6rem 3.2rem;
+    background-color: var(--main-color-lightest);
     border-bottom: var(--border);
 
     &__header {
