@@ -44,8 +44,9 @@
     background-image: linear-gradient(to bottom left, rgba(231, 245, 247, 0.5), rgba(64, 172, 189, 0.5)), url(../../public/imgs/gold.jpg);
     border-bottom: var(--border);
     background-size: cover;
-    //color: white;
-    text-shadow: .3rem .5rem 1rem rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-shadow: .2rem .5rem .4rem rgba(0, 0, 0, .2);
+
 
 
     &__header {
